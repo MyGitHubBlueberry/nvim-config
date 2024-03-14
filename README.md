@@ -1,4 +1,5 @@
 # Preview:
+![image](https://github.com/MyGitHubBlueberry/nvim-config/assets/105305430/873a033f-c40b-446b-924d-65f6a9ac0de0)
 
 # Dependencies:
 * install nvim
