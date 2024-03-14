@@ -25,3 +25,5 @@ cd ~/AppData/Local/nvim
 
 git clone https://github.com/MyGitHubBlueberry/nvim-config .
 ```
+# Credit 
+instiered by thePrimeagen's config
