@@ -5,6 +5,7 @@
 * install nvim
 * install packer
 * install git
+* install ripgrep
 * install clang or other c compiler (for treesitter)
 * install dotnet (optional, for c#)
 
