@@ -39,7 +39,11 @@ return require('packer').startup(function(use)
     use 'romgrk/barbar.nvim'
     use 'ThePrimeagen/vim-be-good'
     use 'onsails/lspkind.nvim'
+<<<<<<< HEAD
     use({ "petertriho/cmp-git", requires = "nvim-lua/plenary.nvim" })
+=======
+    use 'petertriho/cmp-git'
+>>>>>>> 9d32f016e4a13644820359a0ad5892c18cb6b8dc
     use {
         'numToStr/Comment.nvim',
         config = function()
