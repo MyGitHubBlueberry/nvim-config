@@ -1,6 +1,5 @@
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
-  -- Add c and csharp
   ensure_installed = { "lua", "vim", "vimdoc", "query", "rust", "c", "c_sharp" },
 
 
@@ -17,6 +16,7 @@ require'nvim-treesitter.configs'.setup {
     additional_vim_regex_highlighting = false,
   },
 }
+--these allows to fold { }
 vim.wo.foldmethod = 'expr'
 vim.wo.foldexpr = 'nvim_treesitter#foldexpr()'
 vim.wo.foldlevel = 99

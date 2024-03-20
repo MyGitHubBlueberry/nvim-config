@@ -32,15 +32,14 @@ return require('packer').startup(function(use)
             { 'rafamadriz/friendly-snippets' },
         }
     }
-    use('nvim-lua/plenary.nvim')
-    use('mbbill/undotree')
-    use('tpope/vim-fugitive')
+    use 'mbbill/undotree'
+    use 'tpope/vim-fugitive'
     use 'nvim-tree/nvim-web-devicons' -- OPTIONAL: for file icons
     use 'lewis6991/gitsigns.nvim'     -- OPTIONAL: for git status
     use 'romgrk/barbar.nvim'
     use 'ThePrimeagen/vim-be-good'
-    use 'MyGitHubBlueberry/lspkindclone'
-    use 'petertriho/cmp-git'
+    use 'onsails/lspkind.nvim'
+    use({ "petertriho/cmp-git", requires = "nvim-lua/plenary.nvim" })
     use {
         'numToStr/Comment.nvim',
         config = function()

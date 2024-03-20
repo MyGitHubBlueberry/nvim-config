@@ -140,10 +140,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\maksi\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
-  lspkindclone = {
+  ["lspkind.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\maksi\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkindclone",
-    url = "https://github.com/MyGitHubBlueberry/lspkindclone"
+    path = "C:\\Users\\maksi\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind.nvim",
+    url = "https://github.com/onsails/lspkind.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
