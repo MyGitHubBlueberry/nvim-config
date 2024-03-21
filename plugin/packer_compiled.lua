@@ -206,6 +206,7 @@ _G.packer_plugins = {
     url = "https://github.com/tpope/vim-fugitive"
   },
   ["wise-delimiters"] = {
+    config = { "\27LJ\2\n=\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\20wise-delimiters\frequire\0" },
     loaded = true,
     path = "C:\\Users\\maksi\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\wise-delimiters",
     url = "https://github.com/MyGitHubBlueberry/wise-delimiters"
@@ -213,6 +214,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: wise-delimiters
+time([[Config for wise-delimiters]], true)
+try_loadstring("\27LJ\2\n=\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\20wise-delimiters\frequire\0", "config", "wise-delimiters")
+time([[Config for wise-delimiters]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)
 try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")

@@ -40,7 +40,11 @@ return require('packer').startup(function(use)
     use 'ThePrimeagen/vim-be-good'
     use 'onsails/lspkind.nvim'
     use 'petertriho/cmp-git'
-    use 'MyGitHubBlueberry/wise-delimiters'
+    use { 'MyGitHubBlueberry/wise-delimiters',
+        config = function()
+            require("wise-delimiters").setup()
+        end
+    }
     use {
         'numToStr/Comment.nvim',
         config = function()

@@ -59,11 +59,12 @@ vim.keymap.set(n_v, "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- This code inserts a pair of quotes, brackets, or braces and moves the cursor inside them
 -- It also inserts a new line and indents it when pressing Enter inside braces
 
-map(i, "'", "''<left>")
-map(i, '(', '()<left>')
-map(i, '[', '[]<left>')
-map(i, '{', '{}<left>')
-map(i, '{<CR>', '{<CR>}<ESC>O')
+-- now following line handles wise-delimiters plugin
+-- map(i, "'", "''<left>")
+-- map(i, '(', '()<left>')
+-- map(i, '[', '[]<left>')
+-- map(i, '{', '{}<left>')
+-- map(i, '{<CR>', '{<CR>}<ESC>O')
 -- toggles code folding under cursor
 map(n_v, '<leader><leader>', 'za')
 
